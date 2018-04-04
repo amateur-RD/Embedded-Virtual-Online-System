@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="loginAction" class="com.dodo.action.LoginAction" scope="request" autowire="byName"></bean>
+	<bean id="doexpAction" class="com.dodo.action.DoexpAction" scope="request" autowire="byName"></bean>
+    <bean id="systemAction" class="com.dodo.action.SystemAction" scope="request" autowire="byName"></bean>
+    <bean id="noteAction" class="com.dodo.action.NoteAction" scope="request" autowire="byName"></bean>
+    
+    <bean id="loginService" class="com.dodo.service.LoginServiceImp" autowire="byName"></bean>
+    <bean id="systemService" class="com.dodo.service.SystemServiceImp" autowire="byName"></bean>
+    <bean id="noteService" class="com.dodo.service.NoteServiceImp" autowire="byName"></bean> 
+    <bean id="monitorService" class="com.dodo.service.MonitorServiceImp" autowire="byName"></bean>
+    <bean id="demoboardService" class="com.dodo.service.DemoboardServiceImp" autowire="byName"></bean>
+    
+    <bean id="baseDao" class="com.dodo.dao.BaseDaoImp" autowire="byName"></bean>
+    <bean id="userDao" class="com.dodo.dao.UserDaoImp" autowire="byName"></bean>
+    <bean id="noteDao" class="com.dodo.dao.NoteDaoImp" autowire="byName"></bean>
+    <bean id="monitorDao" class="com.dodo.dao.MonitorDaoImp" autowire="byName"></bean>
+    <bean id="demoboardDao" class="com.dodo.dao.DemoboardDaoImp" autowire="byName"></bean>
+    
+    <bean id="loginInterceptor" class="com.dodo.interceptor.LoginInterceptor" autowire="byName"></bean>
+    <bean id="systemInterceptor" class="com.dodo.interceptor.SystemInterceptor" autowire="byName"></bean>
+</beans>
