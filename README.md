@@ -12,7 +12,9 @@
 * Web访问
   * [noVNC](https://github.com/novnc/noVNC)工具实现在线Web访问虚拟机
 * 系统实现
-  * Java ssh2(Struts2 + Spring + Hibernate)实现整个系统的构建
+  * Java ssh2(Struts2 + Spring + Hibernate)实现整个系统的构建
+* 体系结构
+![]()
 
 ## 功能实现
 * 使用Docker实现服务器虚拟化后，我们选取了桌面版的[Docker镜像](https://github.com/fcwu/docker-ubuntu-vnc-desktop)，在此基础上根据实验室需求构建了自己的桌面版的Docker镜像。
