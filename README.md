@@ -12,8 +12,8 @@
 * Web访问
   * [noVNC](https://github.com/novnc/noVNC)工具实现在线Web访问虚拟机
 * 系统实现
-  * Java ssh2(Struts2 + Spring + Hibernate)实现整个系统的构建
-* 体系结构
+  * Java ssh2(Struts2 + Spring + Hibernate)实现整个系统的构建
+* 体系结构<br>
   ![系统体系结构](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/体系结构.png)
 
 ## 功能实现
@@ -22,6 +22,13 @@
 
 ## 系统截图
 ![登录系统](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/login.jpg)
-![主页主页面](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/main.jpg)
+图1 登录系统
+
+![系统主页面](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/main.jpg)
+图2 系统主页面
+
 ![测试LED灯亮](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/ledapp_on.jpg)
-![做笔记](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/note.jpg)
+图3 测试LED灯亮
+
+![做笔记](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/note.png)
+图4 做笔记
