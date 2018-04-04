@@ -14,8 +14,14 @@
 * 系统实现
   * Java ssh2(Struts2 + Spring + Hibernate)实现整个系统的构建
 * 体系结构
-![]()
+  ![系统体系结构](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/体系结构.png)
 
 ## 功能实现
 * 使用Docker实现服务器虚拟化后，我们选取了桌面版的[Docker镜像](https://github.com/fcwu/docker-ubuntu-vnc-desktop)，在此基础上根据实验室需求构建了自己的桌面版的Docker镜像。
 * 使用开源工具noVNC实现Web在线访问虚拟机时，根据自身需求对noVNC源码进行了相关修改。具体实现方法可参考：[教程](https://blog.csdn.net/u012829611/article/details/72576493)
+
+## 系统截图
+![登录系统](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/login.jpg)
+![主页主页面](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/main.jpg)
+![测试LED灯亮](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/ledapp_on.jpg)
+![做笔记](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/note.jpg)
