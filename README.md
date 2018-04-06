@@ -23,7 +23,7 @@
 * 使用开源工具noVNC实现Web在线访问虚拟机时，根据自身需求对noVNC源码进行了相关修改。具体实现方法可参考：[教程](https://blog.csdn.net/u012829611/article/details/72576493)
 
 ## 系统演示
-![系统演示](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/演示.gif)
+![系统演示](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/演示.gif)<br>
 图1 系统演示
 
 ![测试LED灯亮](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/ledapp_on.jpg)
