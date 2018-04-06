@@ -22,15 +22,9 @@
 * 使用Docker实现服务器虚拟化后，我们选取了桌面版的[Docker镜像](https://github.com/fcwu/docker-ubuntu-vnc-desktop)，在此基础上根据实验室需求构建了自己的桌面版的Docker镜像。
 * 使用开源工具noVNC实现Web在线访问虚拟机时，根据自身需求对noVNC源码进行了相关修改。具体实现方法可参考：[教程](https://blog.csdn.net/u012829611/article/details/72576493)
 
-## 系统截图
-![登录系统](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/login.jpg)
-图1 登录系统
-
-![系统主页面](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/main.jpg)
-图2 系统主页面
+## 系统演示
+![系统演示](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/演示动图.gif)
+图1 系统演示
 
 ![测试LED灯亮](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/ledapp_on.jpg)
-图3 测试LED灯亮
-
-![做笔记](https://github.com/amateur-RD/Embedded-Virtual-Online-System/raw/master/系统截图/note.png)
-图4 做笔记
+图2 测试LED灯亮
